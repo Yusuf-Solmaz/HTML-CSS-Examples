@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.first3 {
+  text-decoration: line-through;
+  background-color: #344cb7;
+}
+
+li {
+  list-style-type: none;
+  background-color: #ebe645;
+  width: 150px;
+  position: relative;
+  top: 100px;
+  left: 320px;
+}
