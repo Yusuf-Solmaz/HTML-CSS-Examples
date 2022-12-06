@@ -1,0 +1,36 @@
+* {
+  background-color: rgb(55, 55, 55);
+  color: red;
+}
+
+#d {
+  background-color: rgb(41, 166, 197);
+  right: 200px;
+}
+#s {
+  background-color: rgb(206, 66, 152);
+}
+#a {
+  background-color: rgb(236, 127, 38);
+  left: 200px;
+}
+#w {
+  position: relative;
+  background-color: rgb(90, 88, 89);
+  margin-left: 750px;
+}
+
+.inline-block {
+  position: relative;
+  display: inline-block;
+
+  margin-left: 250px;
+  margin-top: 25px;
+}
+section {
+  text-align: center;
+  padding-top: 150px;
+  width: 250px;
+  height: 150px;
+  font-size: 50px;
+}
