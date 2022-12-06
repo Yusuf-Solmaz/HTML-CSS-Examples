@@ -1,0 +1,22 @@
+section {
+  background-color: blue;
+
+  width: 100%;
+  border: 5px solid green;
+  padding: 15 px;
+}
+article {
+}
+
+main {
+  margin-top: 250px;
+  margin-left: 300px;
+  background-color: aqua;
+
+  width: 100%;
+}
+
+* {
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+}
