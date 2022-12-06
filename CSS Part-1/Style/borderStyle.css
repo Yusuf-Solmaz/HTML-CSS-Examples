@@ -1,0 +1,37 @@
+section {
+  background-color: rgb(43, 9, 107);
+  border: 3px ridge rgb(220, 235, 14);
+  width: 800px;
+}
+
+article {
+  background-color: chocolate;
+  width: 800px;
+}
+main {
+  margin-left: 550px;
+  margin-top: 200px;
+}
+
+* {
+  color: aliceblue;
+}
+
+button {
+  border-width: 5px;
+  border-style: ridge;
+  border-color: rgb(8, 44, 161) rgb(147, 233, 176) rgb(238, 135, 128)
+    rgb(255, 0, 0);
+  background-color: aqua;
+  position: relative;
+  left: 90%;
+  border-radius: 5px;
+  /* border-top-color: rgb(8, 44, 161);
+  border-right-color: rgb(147, 233, 176);
+  border-left-color: rgb(255, 0, 0);
+  border-bottom-color: rgb(238, 135, 128); */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
