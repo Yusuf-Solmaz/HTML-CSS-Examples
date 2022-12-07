@@ -1,0 +1,21 @@
+p.first::first-letter {
+  font-style: oblique;
+  font-size: 100px;
+}
+p::selection {
+  color: blueviolet;
+
+  background-color: black;
+}
+
+p.second::first-line {
+  color: aqua;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
