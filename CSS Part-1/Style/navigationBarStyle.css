@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+.main-header {
+  background-color: aqua;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 80px);
+  text-align: right;
+}
