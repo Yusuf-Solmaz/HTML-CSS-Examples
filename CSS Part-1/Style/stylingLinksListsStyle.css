@@ -1,0 +1,28 @@
+.main-header {
+  background-color: aqua;
+}
+.main-lists {
+  list-style: none;
+  display: inline-block;
+}
+.main-nav {
+  width: calc(100% - 74px);
+  text-align: right;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+body {
+  margin: 0;
+}
+.main-lists li a {
+  text-decoration: none;
+  color: darkred;
+  border-style: ridge;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: darkmagenta;
+}
