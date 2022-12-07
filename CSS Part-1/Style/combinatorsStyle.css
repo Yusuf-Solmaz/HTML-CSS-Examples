@@ -1,0 +1,13 @@
+/*
+Descendant Selector
+*/
+
+main .first-p {
+  color: aqua;
+}
+/*
+Child Selector (>)
+*/
+main > section {
+  color: blue;
+}
