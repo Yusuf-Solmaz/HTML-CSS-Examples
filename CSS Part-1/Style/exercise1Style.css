@@ -16,7 +16,7 @@ li:hover::before {
   color: burlywood;
 }
 .main-nav_item__logo {
-  background-color: darkgreen;
+  background-color: black;
   color: white;
   padding: 4px 16px;
   border-radius: 8px;
@@ -27,7 +27,7 @@ li:hover::before {
 }
 .main-nav_item__logo:hover {
   color: white;
-  background-color: chartreuse;
+  background-color: rgb(46, 45, 45);
 }
 
 nav {
