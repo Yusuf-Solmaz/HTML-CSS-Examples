@@ -24,9 +24,34 @@
 }
 button {
   margin-bottom: 10px;
+  background-color: #5bcfcb;
+  border: 0.5px solid #317270;
+}
+button:hover {
+  background-color: #97dece;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.recommended {
+  background-color: rgb(32, 88, 114);
+  border-radius: 5px;
+  margin: 10px 8px;
+}
+
+.basic {
+  background-color: #396eb0;
+}
+
+li {
+  margin: 5px 0;
+  list-style: none;
+  padding-right: 30px;
 }
