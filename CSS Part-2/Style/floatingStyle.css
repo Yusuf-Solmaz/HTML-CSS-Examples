@@ -1,0 +1,14 @@
+.box {
+  margin-left: 5px;
+  width: 250px;
+  height: 250px;
+  background-color: aqua;
+  float: left;
+}
+#box3 {
+  float: right;
+}
+
+.container {
+  background-color: aqua;
+}
