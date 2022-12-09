@@ -1,0 +1,22 @@
+.container {
+  background-color: rgb(199, 188, 175);
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#box3 {
+  float: left;
+}
+.box {
+  background-color: burlywood;
+  float: right;
+  width: 250px;
+  height: 250px;
+  margin-right: 2px;
+}
+
+.x {
+  padding-left: 100px;
+}
