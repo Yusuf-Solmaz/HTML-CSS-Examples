@@ -1,0 +1,32 @@
+.row {
+  background-color: rgb(204, 240, 240);
+  width: 300px;
+  float: left;
+}
+
+.free {
+  margin-left: 25%;
+  margin-right: 3%;
+}
+
+.premium {
+  margin-left: 3%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.membership {
+  text-align: center;
+}
+button {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
