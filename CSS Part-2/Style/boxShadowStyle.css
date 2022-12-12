@@ -1,0 +1,17 @@
+.box {
+  width: 350px;
+  height: 450px;
+  background-color: aqua;
+  display: inline-block;
+  box-shadow: -5px 10px 40px rgb(79, 226, 226);
+  transition: box-shadow 1s;
+}
+
+.box:hover {
+  background-color: aquamarine;
+  box-shadow: -5px 10px 40px rgb(154, 245, 245);
+}
+
+body {
+  text-align: center;
+}
