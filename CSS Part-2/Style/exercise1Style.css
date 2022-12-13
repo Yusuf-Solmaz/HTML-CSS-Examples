@@ -32,6 +32,9 @@ li:hover::before {
 
 nav {
   background-color: coral;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 a {
@@ -50,19 +53,21 @@ a:visited {
   color: red;
 }
 
-a:hover {
+.navLink:hover {
   color: white;
 }
 
 * {
   margin: 0;
 }
+*::selection {
+  background-color: purple;
+}
 section {
   color: azure;
   background-image: url("669188.jpeg");
   background-position: center;
   height: 500px;
-  position: relative;
   margin: 0;
 }
 .section-h1 {
@@ -86,4 +91,23 @@ footer {
 }
 h2 {
   padding-bottom: 8px;
+}
+
+html {
+  height: 2000px;
+}
+
+.arrow-up {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  text-align: center;
+}
+.arrow {
+  display: inline-block;
+  margin-top: 50%;
+  transform: translate(0, -50%);
 }
