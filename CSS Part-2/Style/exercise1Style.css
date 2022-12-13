@@ -1,0 +1,89 @@
+ul {
+  display: inline-block;
+  width: calc(100% - 150px);
+  text-align: right;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+li::before {
+  content: "\2022";
+  color: blue;
+}
+
+li:hover::before {
+  color: burlywood;
+}
+.main-nav_item__logo {
+  background-color: black;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+.main-nav_item__logo::before {
+  content: none;
+}
+.main-nav_item__logo:hover {
+  color: white;
+  background-color: rgb(46, 45, 45);
+}
+
+nav {
+  background-color: coral;
+}
+
+a {
+  text-decoration: none;
+}
+.first {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: white;
+}
+
+* {
+  margin: 0;
+}
+section {
+  color: azure;
+  background-image: url("669188.jpeg");
+  background-position: center;
+  height: 500px;
+  position: relative;
+  margin: 0;
+}
+.section-h1 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+}
+footer {
+  text-align: center;
+}
+.col {
+  display: inline-block;
+  width: 30%;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.row {
+  padding-top: 32px;
+}
+h2 {
+  padding-bottom: 8px;
+}
